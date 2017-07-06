@@ -45,7 +45,7 @@ et3.setTextColor(SelectorFactory.newColorSelector()
         .setFocusedColor(Color.RED)
         .create());
 ```
-![1.gif](https://github.com/chuwe1/SelectorDemo/screenshots/1.gif)
+![1.gif](https://github.com/chuwe1/SelectorDemo/blob/master/screenshots/1.gif)
 ```
 btn1.setBackground(SelectorFactory.newGeneralSelector()
         .setDefaultDrawable(ContextCompat.getDrawable(this, R.mipmap.blue_primary))
@@ -74,7 +74,7 @@ btn4.setBackground(SelectorFactory.newShapeSelector()
         .create());
 btn4.setEnabled(false);
 ```
-![2.gif](https://github.com/chuwe1/SelectorDemo/screenshots/2.gif)
+![2.gif](https://github.com/chuwe1/SelectorDemo/blob/master/screenshots/2.gif)
 ```
 tv1.setBackground(SelectorFactory.newShapeSelector()
         .setDefaultStrokeColor(Color.GRAY)
@@ -102,4 +102,4 @@ tv4.setTextColor(SelectorFactory.newColorSelector()
         .create());
 tv4.setEnabled(false);
 ```
-![3.gif](https://github.com/chuwe1/SelectorDemo/screenshots/3.gif)
+![3.gif](https://github.com/chuwe1/SelectorDemo/blob/master/screenshots/3.gif)
